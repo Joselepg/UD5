@@ -5,6 +5,7 @@
 import javax.swing.JOptionPane;
 public class Ejercicio5App {
 	public static void main(String[] args) {
+		//Hacemos una pregunta por pantalla para preguntar por un numero y si es par respondera que es par y si no cumple esa condicion respondera que no lo es.
 		String texto=JOptionPane.showInputDialog("Introduce un numero.");
 		int numero=Integer.parseInt(texto);
 		if(numero%2==0) {

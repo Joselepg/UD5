@@ -6,6 +6,7 @@ import javax.swing.JOptionPane;
 public class Ejercicio6App {
 
 	public static void main(String[] args) {
+		//Declaramos una variable final para el IVA, preguntamos por pantalla el precio y lo guardamos en una variable Double y le sumamos el precio con IVA.
 		final double IVA=0.21;
 		String textPrice=JOptionPane.showInputDialog("Introduce el precio.");
 		
